@@ -1,0 +1,56 @@
+.profile-header {
+  text-align: center;
+  color: rgb(101, 166, 209);
+  font-style: italic;
+  font-size: 80px;
+}
+
+.profile-para {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.profile-img {
+  float: right;
+  padding-right: 128px;
+}
+
+.skill-header {
+  text-align: center;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.container {
+  background-color: rgb(132, 132, 132);
+  border-radius: 6px;
+  color: whitesmoke;
+  padding: 1px 20px;
+  text-align: left;
+  display: inline-block;
+  width: 400px;
+  margin: 4px 2px;
+}
+
+.button {
+  background-color: rgb(47, 47, 51);
+  border-radius: 6px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.contact {
+  color: aliceblue;
+  font-size: 24px;
+}
