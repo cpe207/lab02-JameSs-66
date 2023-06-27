@@ -4,39 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
   </head>
 
-  <body style="background-color: rgb(30, 30, 30)">
-    <div class="profile-img">
-      <img src="images/myprofile.jpg" width="450px" />
+  <body>
+    <div class="fw-bold p-2 px-4 text-white bg-dark m-auto">
+      <div class="grid">
+        <div class="row text-center">
+          <h3
+            class="col-lg-7 col-md-7 col-sm-7 col-xs-15 d-block d-sm-none"
+            style="font-size: 36px"
+          >
+            Thanawat Jaisert
+          </h3>
+
+          <div class="text-white">
+            <a
+              ><button
+                class="btn btn-dark"
+                style="background-color: #424649; font-size: 12px"
+              >
+                Home
+              </button></a
+            ><a href="experience.html"
+              ><button class="btn btn-dark" style="font-size: 12px">
+                Experience
+              </button></a
+            ><a href="gallery.html"
+              ><button class="btn btn-dark" style="font-size: 12px">
+                Gallery
+              </button></a
+            ><a href="contact.html"
+              ><button class="btn btn-dark" style="font-size: 12px">
+                Contact
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
     </div>
 
-    <h1 class="profile-header">My Portfolio</h1>
-
-    <div class="profile-para">
-      <h2>Thanawat Jaisert</h2>
-      <p>My nickname is James. I love to play piano.</p>
+    <div
+      class="d-flex justify-content-center mx-auto align-items-center gap-3 p-2 text-dark"
+      style="max-width: 600px"
+    >
+      <img
+        src="images/myprofile.jpg"
+        width="180px"
+        height="180px"
+        class="rounded-circle shadow-sm"
+      />
+      <div class="d-none d-sm-block">
+        <h2 class="profile-name mb-3">Thanawat Jaisert</h2>
+        <p class="mx-2">
+          My nickname is James. I graduated from Chiangmai University. Computer
+          Engineering(CPE).
+        </p>
+      </div>
     </div>
 
-    <br />
-    <div style="text-align: center">
-      <a href="index.html" class="button">Home</a>
-      <a href="experience.html" class="button">Experience</a>
-      <a href="contact.html" class="button"> Contact</a>
-    
-    <h3 class="skill-header">Skill</h3>
-
-      <div class="container">
-        <h2>Programming</h2>
-        <p>C++ C# HTML CSS</p>
+    <h4 class="py-2 fs-3 text-center">Skills</h4>
+    <div class="mx-auto px-3" style="max-width: 500px">
+      <div class="border mb-3 rounded-4">
+        <div class="p-4">
+          <h5>Programming</h5>
+          <p>Using C# C++ for develop games with Unreal Engine and Unity3D.</p>
+        </div>
       </div>
-      <br>
-      <div class="container">
-          <h2>3D Modeling</h2>
-          <p>Blender Maya and 3D Max</p>
+      <div class="border mb-3 rounded-4">
+        <div class="p-4">
+          <h5>3D Modeling</h5>
+          <p>
+            Modeling assets using Blender 3D and using Unreal Engine for more
+            realistic render.
+          </p>
+        </div>
       </div>
-
+    </div>
   </body>
 </html>

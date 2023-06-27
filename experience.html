@@ -4,46 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
   </head>
 
-  <body style="background-color: rgb(30, 30, 30)">
-    <div class="profile-img">
-      <img src="images/myprofile.jpg" width="450px" />
+  <body>
+    <div
+      class="d-flex justify-content-center fw-bold align-items-center p-2 px-4 text-white bg-dark"
+    >
+      <a href="index.html" class="text-white"
+        ><button class="btn btn-dark" style="font-size: 12px">Home</button></a
+      ><a class="text-white"
+        ><button
+          class="btn btn-dark"
+          style="background-color: #424649; font-size: 12px"
+        >
+          Experience
+        </button></a
+      ><a href="gallery.html" class="text-white"
+        ><button class="btn btn-dark" style="font-size: 12px">
+          Gallery
+        </button></a
+      ><a href="contact.html" class="text-white"
+        ><button class="btn btn-dark" style="font-size: 12px">
+          Contact
+        </button></a
+      >
     </div>
 
-    <h1 class="profile-header">My Portfolio</h1>
-
-    <div class="profile-para">
-      <h2>Thanawat Jaisert</h2>
-      <p>My nickname is James. I love to play piano.</p>
+    <h4 class="py-2 fs-3 text-center">Experience</h4>
+    <div class="mx-auto px-3" style="max-width: 600px">
+      <div class="d-flex border mb-3 rounded-4">
+        <img
+          src="images/gamedev.jpeg"
+          width="145px"
+          height="145px"
+          class="d-none d-sm-block"
+        />
+        <div class="p-4">
+          <h5>Game Development</h5>
+          <p>
+            Developed The Loop Of The Death. My first game with Unity3D. Latest
+            YourWays with Unreal Engine.
+          </p>
+        </div>
+      </div>
+      <div class="d-flex border mb-3 rounded-4">
+        <div class="p-4">
+          <h5>3D Modeling</h5>
+          <p>Modeling games assets for personal use and commercial.</p>
+        </div>
+        <img
+          src="images/3dmodellingexp.jpg"
+          width="145px"
+          height="145px"
+          class="d-none d-sm-block"
+        />
+      </div>
+      <div class="d-flex border mb-3 rounded-4">
+        <img
+          src="images/pianoperf.jpg"
+          width="145px"
+          height="145px"
+          class="d-none d-sm-block"
+        />
+        <div class="p-4">
+          <h5>Piano Performance</h5>
+          <p>
+            I play piano at 8 years old. I performed at my 10th birthday and my
+            11st birthday.
+          </p>
+        </div>
+      </div>
     </div>
-
-    <br />
-    <div style="text-align: center">
-      <a href="index.html" class="button">Home</a>
-      <a href="experience.html" class="button">Experience</a>
-      <a href="contact.html" class="button"> Contact</a>
-    
-
-    <h3 class="skill-header">Experience</h3>
-
-      <div class="container">
-        <h2>Game Development</h2>
-        <p>
-          I developed a game called YourWays. Made with Unreal Engine 4 with
-          C++. Finally got A 261102 by this game.
-        </p>
-      </div>
-      <br>
-      <div class="container">
-        <h2>Hobies</h2>
-        <p>
-          I love to play some musics then play some games and finally
-          sleep&#128164;
-        </p>
-      </div>
-
   </body>
 </html>

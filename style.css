@@ -1,13 +1,9 @@
-.profile-header {
-  text-align: center;
-  color: rgb(101, 166, 209);
+.profile-name {
   font-style: italic;
-  font-size: 80px;
+  font-size: 48px;
 }
 
-.profile-para {
-  text-align: center;
-  color: whitesmoke;
+.profile-text {
   font-size: 24px;
 }
 
@@ -38,16 +34,8 @@ img {
   margin: 4px 2px;
 }
 
-.button {
-  background-color: rgb(47, 47, 51);
-  border-radius: 6px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
+.currentpagenav {
+  background-color: #424649;
 }
 
 .contact {
